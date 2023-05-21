@@ -11,11 +11,12 @@ h1{
 .square-row{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .square{
     color: #fff;
-    width: 90px;
+    width: 116px;
     height: 70px;
     display: flex;
     justify-content: center;
@@ -23,7 +24,7 @@ h1{
 }
 
 .red, .orange, .blue, .green{
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     margin-right: 10px;
     border-radius: 10px;
     box-shadow: 8px 8px 10px black;
