@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(4, 77, 173);
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
+
+.square-row{
+    display: flex;
+    justify-content: center;
+}
+
+.square{
+    color: #fff;
+    width: 90px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red, .orange, .blue, .green{
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 10px black;
+}
+
+.red{
+    background-color: red;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.green{
+    background-color: green;
+}
