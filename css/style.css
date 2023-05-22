@@ -7,7 +7,7 @@ h1{
     color: #fff;
     font-size: 50px;
 }
-
+/* DIMENSIONI E COLORI DEI VARI BLOCCHI */
 .square-row{
     display: flex;
     justify-content: center;

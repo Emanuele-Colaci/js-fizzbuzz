@@ -1,3 +1,4 @@
+//VARIABILI
 let number3 = 3;
 let number5 = 5;
 let number15 = 15;
@@ -7,11 +8,11 @@ let fizzbuzz = 'FizzBuzz'
 let fizz = 'Fizz'
 let buzz = 'Buzz'
 
-
+//PRIMO CICLO
 for(let row = 1; row <= 1; row++){
 
 bordo += "<div class='square-row'>"
-
+//SECONDO CICLO
         for(let i = 1; i <= 100; i++){
         if(i % 15 === 0){
             console.log('FizzBuzz')
@@ -31,6 +32,6 @@ bordo += "<div class='square-row'>"
     
     bordo += "</div>"
 }
-
+//STAMPE
 console.log (bordo)
 div1.innerHTML +=  bordo
